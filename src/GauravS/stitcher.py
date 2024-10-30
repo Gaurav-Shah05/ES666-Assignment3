@@ -9,7 +9,7 @@ class PanaromaStitcher:
         self.ransac_thresh = 5.0
         self.ransac_iters = 1000
         self.min_matches = 10
-        self.max_image_dim = 12000  # Add max image dimension check
+        self.max_image_dim = 10000  # Add max image dimension check
         
     def make_panaroma_for_images_in(self, path):
         """Create panorama from images in the given path."""
